@@ -1,8 +1,25 @@
 {
-    "Recipes" :
-    [
-        "Foo",
-        "Bar",
-        "Baz"
-    ]
+    "Recipes": {
+        "Chicken": [
+            {
+                "Name": "Lemony Chicken with Fingerling Potatoes and Olives",
+                "Link": ""
+            },
+            {
+                "Name": "Classic Chicken Noodle Soup with Orzo, Green Beans, and Peas",
+                "Link": ""
+            },
+            {
+                "Name": "Teriyaki Chicken Thighs with Carrots and Snow Peas",
+                "Link": ""
+            }
+        ],
+        "Beef": {},
+        "Pork": {}
+    },
+    "Fasting Recipes": {
+        "Tofu": {},
+        "Seafood": {},
+        "Bowls": {}
+    }
 }
