@@ -21,7 +21,14 @@ namespace Bridge::impl
 
 using namespace Bridge;
 
+Message::Message() : m_impl{new impl::Message()} { }
+
+Message::~Message()
+{
+    delete m_impl;
+}
+
 void Message::Write(const std::wstring& msg)
 {
-    m_impl.Write(msg);
+    m_impl->Write(msg);
 }
